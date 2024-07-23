@@ -9,6 +9,8 @@ let g:lsp_log_file = expand('~/vim-lsp.log')
 let g:airline#extensions#tabline#enabled = 1 " set a tab line at top
 let g:airline_theme='base16' " set color for aairline
 
+let base16_colorspace=256 " Access colors present in 256 colorspace
+
 
 " enable clipboard
 set clipboard=unnamed
@@ -45,10 +47,11 @@ set updatetime=100
 " set background=dark
 " colorscheme retrobox
 
-"autocmd VimEnter * :color anderson
-"autocmd VimEnter * :color spacecamp
-"autocmd VimEnter * :AirlineTheme molokai
-"autocmd VimEnter * :set belloff=all
+autocmd VimEnter * :color abstract
+autocmd VimEnter * :color default
+"autocmd VimEnter * :color molokai
+autocmd VimEnter * :AirlineTheme molokai
+autocmd VimEnter * :set belloff=all
 
 
 set tabstop=4
