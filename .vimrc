@@ -47,10 +47,10 @@ set updatetime=100
 " set background=dark
 " colorscheme retrobox
 
-autocmd VimEnter * :color abstract
+"autocmd VimEnter * :color abstract
 autocmd VimEnter * :color default
 "autocmd VimEnter * :color molokai
-autocmd VimEnter * :AirlineTheme molokai
+"autocmd VimEnter * :AirlineTheme molokai
 autocmd VimEnter * :set belloff=all
 
 
@@ -82,7 +82,7 @@ call plug#begin('$HOME/vimfiles/plugged')
     Plug 'vim-python/python-syntax'
     " for git
     Plug 'tpope/vim-fugitive'
-    Plug 'mhinz/vim-signify', { 'tag': 'legacy' }
+"    Plug 'mhinz/vim-signify', { 'tag': 'legacy' }
     " for statusline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
