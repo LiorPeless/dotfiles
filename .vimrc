@@ -13,7 +13,7 @@ let base16_colorspace=256 " Access colors present in 256 colorspace
 
 
 " enable clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " configure fzf
 let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.9 } }
