@@ -59,6 +59,9 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa --color=always --group-directories-first --icons $realpath'
 
+# Fix Powerlevel10k
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet 
+
 
 # Aliases
 # Things my stupied brain needs in order to function:
@@ -71,6 +74,13 @@ alias grep='grep --color=auto'
 alias ls='exa --color=always --group-directories-first --icons'
 alias la='exa -a --color=always --group-directories-first --icons'
 
+# My scripts:
+alias th='touhou_launcher.sh'
+alias fl='fzf_launcher.sh'
+
+# Add cargo binaries to path:
+. "$HOME/.cargo/env"
+
 
 
 # fzf Shell integration
@@ -79,5 +89,5 @@ eval "$(fzf --zsh)"
 
 
 
-# Fix Powerlevel10k
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+# Add scripts to path:
+export PATH="/home/lior/dotfiles/scripts/:$PATH"
