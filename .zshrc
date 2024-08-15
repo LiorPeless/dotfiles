@@ -73,6 +73,7 @@ alias cls='clear'
 alias grep='grep --color=auto'
 alias ls='exa --color=always --group-directories-first --icons'
 alias la='exa -a --color=always --group-directories-first --icons'
+#alias fzf='fzf --preview="batcat --color=always -n {}"'
 
 # My scripts:
 alias th='touhou_launcher.sh'
