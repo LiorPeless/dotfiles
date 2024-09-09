@@ -71,6 +71,7 @@ call plug#begin('$HOME/vimfiles/plugged')
     " For LSP
 	Plug 'prabirshrestha/vim-lsp'
 	Plug 'mattn/vim-lsp-settings'
+    Plug 'habamax/vim-godot'
 	" For Auto Completion + using AI
     Plug 'vim-scripts/AutoComplPop'
 	Plug 'Exafunction/codeium.vim'
